@@ -32,7 +32,8 @@ Motor Vehicle Crashes or Collisions are inevitable, especially in big cities suc
 6. Setup DBT Cloud and connect it to our BigQuery DW using our GCP Project Credentials. - https://cloud.getdbt.com/
 7. Create staging models, referencing tables in BigQuery.
 8. Create our final mart model by transforming and processing our staging models.
-9. Start to build the report in Looker - https://lookerstudio.google.com/
+9. Create a partitioned and clustered table in BigQuery based on our final mart model.
+10. Start to build the report in Looker - https://lookerstudio.google.com/
 
 Optional 
 1. Download NYC Population by Zip Code - https://data.census.gov/
