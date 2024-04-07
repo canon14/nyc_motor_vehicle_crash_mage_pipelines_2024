@@ -32,7 +32,7 @@ Motor Vehicle Crashes or Collisions are inevitable, especially in big cities suc
 6. Setup DBT Cloud and connect it to our BigQuery DW using our GCP Project Credentials. - https://cloud.getdbt.com/
 7. Create staging models, referencing tables in BigQuery.
 8. Create our final mart model by transforming and processing our staging models.
-9. Create a partitioned and clustered table in BigQuery based on our final mart model.
+9. Create a partitioned and clustered table in BigQuery based on our final mart model. The reason for this step is because this table will eventually populated with massive number of records and becoming slow to run queries. We might also want to build multiple marts on top this table and need to do analysis first before we do so. By applying partitioning and clustering, we will speed up and optimize our query run time against the table. Query Link: https://github.com/canon14/nyc_motor_vehicle_crash_mage_pipelines_2024/blob/main/Create%20partitioned%20and%20clustered%20ny_vc_2022_2023%20table.sql
 10. Start to build the report in Looker - https://lookerstudio.google.com/
 
 Optional 
