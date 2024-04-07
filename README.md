@@ -1,4 +1,4 @@
-# nyc_motor_vehicle_crash_mage_pipelines_2024
+# DE Zoomcamp 2024 Final Project - nyc_motor_vehicle_crash_mage_pipelines
 
 ## Problem description
 Motor Vehicle Crashes or Collisions are inevitable, especially in big cities such as New York City where the streets are always bustling with motor vehicles every hour of the day. The purpose of the project is to create an end-to-end pipeline processes that will run in Google Cloud Environment via Terraform/Docker setup, extract daily Motor Vehicle Crashes data from NYC Open Data via API using Mage (alternative to Airflow), transform data with DBT, load the final data to Google Big Query, and utilize Google Data Studio (Looker) to build the final reports. 
