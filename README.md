@@ -1,5 +1,7 @@
 # DE Zoomcamp 2024 Final Project - nyc_motor_vehicle_crash_mage_pipelines
 
+![mvc logo](https://raw.githubusercontent.com/canon14/nyc_motor_vehicle_crash_mage_pipelines_2024/main/mvc_project_workflow.png)
+
 ## Links 
 - Looker Dashboard (final project output) --> https://lookerstudio.google.com/u/0/reporting/ec1ed7c8-175b-4f46-94ef-1a99bcdb44a4/page/cVsvD
 - DBT Repository --> https://github.com/canon14/zoomcamp2004_dbt
